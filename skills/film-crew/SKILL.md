@@ -1,6 +1,6 @@
 ---
 name: film-crew
-description: "Turn a one-line video idea into a shot list and model-ready prompts by running it past a film crew (director, production designer, DP, gaffer, editor, sound, script supervisor). Use when the user wants to plan or prompt an AI video (Wan, LTX, HunyuanVideo, Kling, Veo, Seedance, Hailuo/MiniMax, Runway, Sora-style models), write a shot list or storyboard, fix AI video prompts that keep failing, or decide what to change before rerolling a clip. Triggers: \"AI video prompt\", \"shot list\", \"storyboard\", \"make a video of\", \"text-to-video\", \"image-to-video\", \"my generations keep failing\", \"reroll\", \"film crew\"."
+description: "Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedance, Hailuo, Runway."
 ---
 
 # Film Crew
@@ -13,6 +13,13 @@ Most failed AI video clips fail for boring, fixable reasons: two actions in one 
 no camera instruction, a subject described differently in every shot, physics the model
 can't do in 5 seconds, or a prompt that describes a *feeling* instead of a *frame*.
 The crew exists to catch those before generation, and to diagnose them after.
+
+## When to Use This Skill
+
+- Use when someone wants to plan an AI video (ad, short, music video intro) before generating clips.
+- Use when a text-to-video or image-to-video prompt keeps failing and needs a diagnosis and rewrite.
+- Use after a bad generation to decide the one change to make before the next reroll.
+- Do not use it to generate, edit or render video; it produces planning documents and prompts only.
 
 ## Modes
 
