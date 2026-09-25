@@ -88,3 +88,11 @@ Close-up, 100mm macro lens, locked-off camera, on a pale oak café counter. A ha
 | S5 | hand has extra fingers | frame only the cup; let it slide in without a hand |
 
 **Highest-risk shot:** S2. Liquid hitting a surface is the hardest physics in the video, so it gets the simplest frame and nothing else.
+
+## Result (2026-09-25)
+
+S2 was generated 10 times (Ludyte, 9:16, 5 s, same settings as the original 10 rerolls).
+The splash lands on the sneaker in 10/10 takes, versus a barely-there spill in the original
+one-line prompt. Remaining issue: in several takes the coffee reads slightly syrupy, so the
+next reroll change per the plan is "drop slow motion to real-time". See
+`assets/before-after.jpg`.

@@ -8,8 +8,8 @@ Works with Wan, LTX-Video, HunyuanVideo, Kling, Veo, Seedance, Hailuo/MiniMax, R
 Luma, or whatever you run.
 
 <p align="center">
-  <img src="assets/ten-rerolls.png" width="640" alt="Ten rerolls of the same one-line prompt: the coffee barely spills in any of them">
-  <br><sub>Ten rerolls of one prompt. The coffee was supposed to spill. The prompt was the problem, not the dice.</sub>
+  <img src="assets/before-after.jpg" width="640" alt="Before: ten rerolls of a one-line prompt where the coffee barely spills. After: ten generations of the film-crew replanned shot, where the splash lands every time">
+  <br><sub><b>Before:</b> one prompt, 10 rerolls, the spill barely happens. <b>After:</b> the crew split the bump and the spill into separate shots and led with the action. Same app, same settings (9:16, 5 s): the splash lands in 10/10.</sub>
 </p>
 
 ## Why
@@ -76,7 +76,9 @@ Plus references for [per-model prompting](skills/film-crew/references/model-prom
 [`examples/coffee-spill-15s/SHOT_LIST.md`](examples/coffee-spill-15s/SHOT_LIST.md): the
 prompt from the image above, replanned by the crew into 5 shots. The script supervisor's
 catch: the bump and the spill were fighting in one clip, and the spill was the last
-clause, so the model kept skipping it.
+clause, so the model kept skipping it. The "after" row is shot S2 of that plan, generated
+10 times. Honest note: the coffee still reads a little thick in some takes, which is the
+next thing the reroll plan would fix.
 
 [`examples/ceramic-mug-ad-kling/SHOT_LIST.md`](examples/ceramic-mug-ad-kling/SHOT_LIST.md):
 *"15s vertical ad for a handmade ceramic mug, for Kling. just go."*, the skill's full
@@ -90,7 +92,7 @@ locally, fal, Replicate, or any hosted app.
 
 ## Where the demo clips came from
 
-The ten rerolls above were generated with [Ludyte](https://share.ludyte.com/junfoi), a
+Both the before and after clips above were generated with [Ludyte](https://share.ludyte.com/junfoi), a
 hosted AI video app with the same crew-plans-first idea built in, flat monthly price and
 no per-generation credits. **Disclosure: I work on Ludyte.** The skill is MIT and
 model-agnostic; nothing in it depends on Ludyte.
